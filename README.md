@@ -3,10 +3,8 @@ This is a batch scheduling simulator written in C. It simulates the performance 
 
 # How to Compile 
 1. Download the project.c file. Open any terminal for compiling the C code. 
-2. Compile the code using a C compiler. For example, you can use GCC: 
-gcc project.c -o batch_scheduling_simulator 
-3. Run the compiled executable: 
-./batch_scheduling_simulator
+2. Compile the code using a C compiler. For example, you can use GCC: gcc project.c -o batch_scheduling_simulator 
+3. Run the compiled executable: ./batch_scheduling_simulator
 
 # Algorithms Implemented 
 1. FIFO (First-In-First-Out): Processes are executed in the order they arrive. No preemption is involved. 
